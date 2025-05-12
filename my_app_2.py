@@ -1,5 +1,5 @@
-from Agents import decision_expert , market_research_expert, financial_expert,risk_expert,strategy_expert
-from Tasks import decision_task,market_task, financial_task, risk_task,strategy_task
+from agents import decision_expert , market_research_expert, financial_expert, risk_expert, strategy_expert
+from tasks import decision_task, market_task, financial_task, risk_task, strategy_task
 
 from crewai import Crew, Process
 import streamlit as st
